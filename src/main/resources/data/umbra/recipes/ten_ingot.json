@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "umbra:ref_ten"
+    }
+  },
+  "result":
+  {
+    "item": "umbra:ten_ingot",
+    "count": 1
+  }
+}

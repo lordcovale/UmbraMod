@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "umbra:ten_dust"
+  },
+  "result": "umbra:ref_ten",
+  "experience": 1.0,
+  "cookingtime": 400
+}
