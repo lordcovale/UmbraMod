@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xox",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "tag": "umbra:tenebrousdust"
+    },
+    "o":
+    {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result":
+  {
+    "item": "minecraft:crying_obsidian",
+    "count": 1
+  }
+}

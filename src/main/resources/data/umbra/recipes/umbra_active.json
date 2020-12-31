@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xox",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "umbra:ten_dust"
+    },
+    "o":
+    {
+      "item": "minecraft:blackstone"
+    }
+  },
+  "result":
+  {
+    "item": "umbra:umbra_active",
+    "count": 1
+  }
+}

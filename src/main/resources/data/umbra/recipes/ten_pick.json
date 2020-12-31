@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xnx",
+    " i ",
+    " i "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "tag": "umbra:tenebrousmetal"
+    },
+    "n":
+    {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    "i":
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "umbra:ten_pick",
+    "count": 1
+  }
+}

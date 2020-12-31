@@ -2,6 +2,7 @@ package com.lordcovale.umbra.util;
 
 
 import com.lordcovale.umbra.blocks.TenebrousOre;
+import com.lordcovale.umbra.blocks.UmbralActivatior;
 import com.lordcovale.umbra.tools.ModItemTier;
 import com.lordcovale.umbra.umbra;
 import com.lordcovale.umbra.items.ItemBase;
@@ -10,7 +11,6 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.PickaxeItem;
 import net.minecraftforge.fml.RegistryObject;
-import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -37,10 +37,13 @@ public class RegistryHandler {
 
     //Blocks
     public static final RegistryObject<Block> TENEBROUS_BLOCK = BLOCKS.register("ten_ore", TenebrousOre::new);
+    public static final RegistryObject<Block> UMBRAL_ACTIVATIOR = BLOCKS.register("umbra_active", UmbralActivatior::new);
 
     //Block Items
     public static final RegistryObject<Item> TENEBROUS_BLOCK_ITEM = ITEMS.register("ten_ore",
             () -> new BlockItem(TENEBROUS_BLOCK.get(), new Item.Properties().group(umbra.TAB)));
+    public static final RegistryObject<Item> UMBRAL_ACTIVATIOR_ITEM = ITEMS.register("umbra_active",
+            () -> new BlockItem(UMBRAL_ACTIVATIOR.get(), new Item.Properties().group(umbra.TAB)));
 
 
 }

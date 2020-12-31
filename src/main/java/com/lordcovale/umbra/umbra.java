@@ -19,11 +19,10 @@ import org.apache.logging.log4j.Logger;
 public class umbra
 {
     // Directly reference a log4j logger.
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "umbra";
 
     public static RegistryKey<World> UMBRA_DIMENSION;
-
 
 
     public umbra() {
@@ -34,10 +33,15 @@ public class umbra
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         RegistryHandler.init();
+
+
+
         // Register the enqueueIMC method for modloading
         // FMLJavaModLoadingContext.get().getModEventBus().addListener(this::enqueueIMC);
         // Register the processIMC method for modloading
         // FMLJavaModLoadingContext.get().getModEventBus().addListener(this::processIMC);
+
+
         // Register the doClientStuff method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
@@ -55,12 +59,18 @@ public class umbra
         // some preinit code
         //LOGGER.info("HELLO FROM PREINIT");
         //LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+
+
         OreGeneration.registerOre();
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
+
+
         // do something that can only be done on the client
         //LOGGER.info("Got game settings {}", event.getMinecraftSupplier().get().gameSettings);
+
+
     }
 
     //private void enqueueIMC(final InterModEnqueueEvent event)

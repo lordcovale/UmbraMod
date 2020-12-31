@@ -36,7 +36,7 @@
     "features": [
     [],
     [
-      "minecraft:lake_water",
+      "minecraft:lake_water"
 
     ],
     [],
@@ -88,12 +88,6 @@
       {
         "type": "minecraft:sheep",
         "weight": 12,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:pig",
-        "weight": 10,
         "minCount": 4,
         "maxCount": 4
       },

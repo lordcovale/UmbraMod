@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "umbra:block/umbra_active" }
+  }
+}

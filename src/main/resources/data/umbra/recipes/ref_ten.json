@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "ingredient": {
-    "item": "umbra:ten_dust"
+    "tag": "umbra:tenebrousdust"
   },
   "result": "umbra:ref_ten",
   "experience": 1.0,
